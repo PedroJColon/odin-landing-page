@@ -13,14 +13,35 @@ a {
     color: #E5E7EB;
 }
 
-.header {
-    font-size: 24px;
-    color: #F9FAF8;
+.flex-header {
     display: flex;
-    justify-content: space-between;
+    border: 4px;
+    padding: 8px;
+    justify-content: space-evenly;
+}
+
+.flex-header .header-logo {
+    color: #F9FAF8;
+    flex: 1;
+    font-size: 24px;
+    height: 50px;
     align-items: center;
     flex-direction: row;
+    margin-left: 200px;
+    margin-right: 220px;
+}
+
+.flex-header .header-link {
+    color: #F9FAF8;
+    flex: 1;
+    font-size: 16px;
     height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 480px;
+    margin-right: 200px;
+    margin-top: 8px;
 }
 
 .list-box {
@@ -59,7 +80,7 @@ a {
 }
 
 .secondary-text {
-    margin-top: auto;
+    margin-left: auto;
     font-size: 18px;
     color: #E5E7EB;
     width: 325px;
