@@ -41,7 +41,13 @@ a {
 .quote-text {
     font-size: 36px;
     color: #1F2937;
-    font-style: italic
+    font-style: italic;
+}
+
+.quote-handler-text {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bolder;
 }
 
 .placeholder-img-text {
@@ -102,7 +108,21 @@ a {
     justify-content: center;
 }
 
-.quote-box {
+.quote-background-box {
     display: flex;
+    flex-direction: row;
     background-color: #E5E7EB;
+    justify-content: center;
+    height: 400px;
+    padding-top: 200px;
+}
+
+.quote-box {
+    flex-direction: column;
+    width: 900px;
+}
+
+.quote-box .quote-handler-box {
+    text-align: right;
+    margin-right: 60px;
 }
