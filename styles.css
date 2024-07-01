@@ -13,6 +13,7 @@ a {
     color: #E5E7EB;
 }
 
+
 /*Text Classes*/
 .hero-main-text {
     font-size: 48px;
@@ -43,6 +44,13 @@ a {
     font-style: italic
 }
 
+.placeholder-img-text {
+    color: #F9FAF8;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
 /*Flex classes*/
 .flex-header  {
     display: flex;   
@@ -59,6 +67,7 @@ a {
 
 .flex-main-content {
     display: flex;
+    margin-top: 40px;
     justify-content: space-evenly;
 }
 
@@ -85,7 +94,12 @@ a {
 }
 
 .flex-main-content-image-column {
-    flex-direction: column;   
+    flex-direction: column;
+    background-color: #b1b1b1b7; 
+    width: 500px;
+    height: 240px;
+    margin-top: 40px;
+    justify-content: center;
 }
 
 .quote-box {
