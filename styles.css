@@ -42,3 +42,12 @@ a {
 }
 
 /*Flex classes*/
+.flex-header  {
+    display: flex;
+    background-color: #1F2937;   
+}
+
+.quote-box {
+    display: flex;
+    background-color: #E5E7EB;
+}
