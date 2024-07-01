@@ -1,6 +1,7 @@
 
 body {
     font-family: "Roboto";
+    background-color: #1F2937;   
 }
 
 ul {
@@ -43,9 +44,18 @@ a {
 
 /*Flex classes*/
 .flex-header  {
-    display: flex;
-    background-color: #1F2937;   
+    display: flex;   
+    justify-content: space-evenly;
 }
+
+.flex-header .flex-logo {
+    margin: auto;
+}
+
+.flex-header .flex-links {
+    margin: auto;
+}
+
 
 .quote-box {
     display: flex;
