@@ -57,6 +57,30 @@ a {
     margin-bottom: 120px;
 }
 
+.call-to-action-text {
+    color: #F9FAF8;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 6px;
+}
+
+.call-to-action-secondary-text {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-top: 0px;
+    margin-left: 120px;
+    margin-bottom: 24px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
 /*Flex classes*/
 .flex-header  {
     display: flex;   
@@ -125,4 +149,62 @@ a {
 .quote-box .quote-handler-box {
     text-align: right;
     margin-right: 60px;
+}
+
+.background-white-box {
+    display: flex;
+    height: 180px;
+    background-color: #F9FAF8;
+    justify-content: center;
+}
+
+.call-to-action-blue-box {
+    display: flex;
+    margin-top: 48px;
+    border-radius: 6px;
+    height: 100px;
+    width: 1000px;
+    background-color: #3882F6;
+}
+
+.call-to-action-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.call-to-sign-up-box {
+    display: flex;
+    width: 200px;
+    margin-left: 110px;
+    justify-content: center;
+}
+
+.call-to-sign-up-box .call-to-sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    margin-top: 38px;
+    margin-bottom: 16px;
+    border-width: 2px;
+    width: 120px;
+    height: 32px;
+}
+
+.call-to-sign-up-button:hover{
+    background-color: #2b5fb4;
+}
+
+.secondary-action-box {
+    display: flex;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: center;
 }
